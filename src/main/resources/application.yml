@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    username: root
+    password: 143188
+    url: jdbc:mysql://localhost:3306/jwt?serverTimezone=UTC
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+#sql日志
+#logging:
+#  level:
+#    com.lishuai.mapper: debug
+
+#mybatis-plus日志
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
